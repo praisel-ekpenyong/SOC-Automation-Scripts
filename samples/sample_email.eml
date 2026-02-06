@@ -2,17 +2,17 @@ Return-Path: <noreply@paypa1-secure.com>
 Delivered-To: victim@company.com
 Received: from mail.paypa1-secure.com (unknown [185.220.101.5])
 	by mx.company.com (Postfix) with ESMTP id 1A2B3C0001
-	for <victim@company.com>; Mon, 05 Feb 2024 14:30:00 +0000 (UTC)
+	for <victim@company.com>; Wed, 15 Oct 2025 14:30:00 +0000 (UTC)
 Received: from [192.168.1.100] (helo=attacker-pc)
 	by mail.paypa1-secure.com with esmtpsa (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128)
 	(Exim 4.95)
 	id 1rXXXX-0000Ab-XX
-	for victim@company.com; Mon, 05 Feb 2024 14:29:55 +0000
+	for victim@company.com; Wed, 15 Oct 2025 14:29:55 +0000
 From: "PayPal Security Team" <security@paypal.com>
 To: victim@company.com
 Subject: Urgent: Unusual Activity Detected on Your Account
-Date: Mon, 05 Feb 2024 14:29:50 +0000
-Message-ID: <20240205142950.12345@paypa1-secure.com>
+Date: Wed, 15 Oct 2025 14:29:50 +0000
+Message-ID: <20251015142950.12345@paypa1-secure.com>
 Reply-To: support@paypa1-secure.com
 MIME-Version: 1.0
 Content-Type: text/html; charset=UTF-8
@@ -46,7 +46,7 @@ X-Mailer: PhishKit v2.0
     <ul>
         <li>Login attempts from: Russia</li>
         <li>Suspicious transaction: $499.99</li>
-        <li>Time: 2024-02-05 14:15:00 UTC</li>
+        <li>Time: 2025-10-15 14:15:00 UTC</li>
     </ul>
     
     <p>Thank you for your immediate attention to this matter.</p>

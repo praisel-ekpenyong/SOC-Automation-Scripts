@@ -90,7 +90,7 @@ Detection Ratio: 0/94
 Malicious: 0 | Suspicious: 0 | Clean: 94
 Country: US
 ASN: 15169 (GOOGLE)
-Last Analysis: 2024-02-05 10:30:45
+Last Analysis: 2025-10-15 10:30:45
 ```
 
 ---
@@ -237,7 +237,7 @@ File Name: eicar.com
 File Type: text
 Size: 68 bytes
 First Seen: 2005-01-01
-Last Seen: 2024-02-05
+Last Seen: 2025-10-15
 ```
 
 ---
@@ -302,7 +302,7 @@ python scripts/alert_triage_report.py --input alert.json --analyst "Jane Smith" 
 - **Alert Name:** Brute Force Attack Detected
 - **Alert Type:** Brute Force
 - **Severity:** HIGH
-- **Date/Time:** 2024-02-05 14:35:00 UTC
+- **Date/Time:** 2025-10-15 14:35:00 UTC
 - **Analyst:** Jane Smith
 
 ## Executive Summary
