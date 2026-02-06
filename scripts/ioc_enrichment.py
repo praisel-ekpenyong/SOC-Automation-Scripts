@@ -12,7 +12,7 @@ Example Output:
     Detection Ratio: 0/94
     Malicious: 0 | Suspicious: 0 | Clean: 94
     Country: US
-    Last Analysis: 2024-01-15 10:30:45
+    Last Analysis: 2025-10-15 10:30:45
 """
 
 import argparse
@@ -130,7 +130,13 @@ def display_results(ioc_type: str, value: str, data: Dict) -> None:
             date_str = datetime.fromtimestamp(creation_date).strftime('%Y-%m-%d')
             print(f"Created: {date_str}")
     elif ioc_type == 'hash':
-        names = attributes.get('meaningful_name') or attributes.get('names', ['Unknown'])[0] if attributes.get('names') else 'Unknown'
+        meaningful_name = attributes.get('meaningful_name')
+        if meaningful_name:
+            names = meaningful_name
+        elif attributes.get('names'):
+            names = attributes.get('names')[0]
+        else:
+            names = 'Unknown'
         file_type = attributes.get('type_description', 'Unknown')
         size = attributes.get('size', 0)
         print(f"File: {names}")

@@ -3,7 +3,7 @@
   "alert_type": "brute_force",
   "severity": "HIGH",
   "description": "Multiple failed login attempts detected from single source IP address targeting administrative accounts. Pattern suggests automated password guessing attack.",
-  "timestamp": "2024-02-05T14:35:00Z",
+  "timestamp": "2025-10-15T14:35:00Z",
   "source_ip": "185.220.101.5",
   "source_host": "unknown-attacker.net",
   "source_user": "N/A",

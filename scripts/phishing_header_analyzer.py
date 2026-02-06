@@ -138,12 +138,12 @@ def extract_urls(msg: email.message.Message) -> List[str]:
             if part.get_content_type() == "text/plain":
                 try:
                     body += part.get_payload(decode=True).decode('utf-8', errors='ignore')
-                except:
+                except Exception:
                     pass
     else:
         try:
             body = msg.get_payload(decode=True).decode('utf-8', errors='ignore')
-        except:
+        except Exception:
             pass
     
     # Find URLs
