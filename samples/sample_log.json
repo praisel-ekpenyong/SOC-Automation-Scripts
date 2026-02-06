@@ -1,0 +1,159 @@
+[
+  {
+    "EventID": "4625",
+    "TimeCreated": "2024-02-05T14:23:15Z",
+    "Computer": "WS-001.corp.local",
+    "TargetUserName": "admin",
+    "IpAddress": "192.168.1.50",
+    "LogonType": "3"
+  },
+  {
+    "EventID": "4625",
+    "TimeCreated": "2024-02-05T14:23:18Z",
+    "Computer": "WS-001.corp.local",
+    "TargetUserName": "admin",
+    "IpAddress": "192.168.1.50",
+    "LogonType": "3"
+  },
+  {
+    "EventID": "4625",
+    "TimeCreated": "2024-02-05T14:23:21Z",
+    "Computer": "WS-001.corp.local",
+    "TargetUserName": "admin",
+    "IpAddress": "192.168.1.50",
+    "LogonType": "3"
+  },
+  {
+    "EventID": "4625",
+    "TimeCreated": "2024-02-05T14:23:24Z",
+    "Computer": "WS-001.corp.local",
+    "TargetUserName": "admin",
+    "IpAddress": "192.168.1.50",
+    "LogonType": "3"
+  },
+  {
+    "EventID": "4625",
+    "TimeCreated": "2024-02-05T14:23:27Z",
+    "Computer": "WS-001.corp.local",
+    "TargetUserName": "admin",
+    "IpAddress": "192.168.1.50",
+    "LogonType": "3"
+  },
+  {
+    "EventID": "4625",
+    "TimeCreated": "2024-02-05T14:23:30Z",
+    "Computer": "WS-001.corp.local",
+    "TargetUserName": "admin",
+    "IpAddress": "192.168.1.50",
+    "LogonType": "3"
+  },
+  {
+    "EventID": "4624",
+    "TimeCreated": "2024-02-05T14:25:45Z",
+    "Computer": "DC-01.corp.local",
+    "TargetUserName": "jsmith",
+    "SourceAddress": "10.0.0.45",
+    "LogonType": "10"
+  },
+  {
+    "EventID": "4720",
+    "TimeCreated": "2024-02-05T14:30:12Z",
+    "Computer": "DC-01.corp.local",
+    "TargetUserName": "new_admin_user",
+    "SubjectUserName": "administrator"
+  },
+  {
+    "EventID": "4728",
+    "TimeCreated": "2024-02-05T14:31:05Z",
+    "Computer": "DC-01.corp.local",
+    "TargetUserName": "new_admin_user",
+    "SubjectUserName": "administrator"
+  },
+  {
+    "EventID": "4688",
+    "TimeCreated": "2024-02-05T14:35:22Z",
+    "Computer": "WS-002.corp.local",
+    "ProcessName": "C:\\Windows\\System32\\powershell.exe",
+    "CommandLine": "powershell.exe -ExecutionPolicy Bypass -File C:\\temp\\script.ps1",
+    "SubjectUserName": "jdoe"
+  },
+  {
+    "EventID": "4688",
+    "TimeCreated": "2024-02-05T14:36:10Z",
+    "Computer": "WS-002.corp.local",
+    "ProcessName": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c whoami",
+    "SubjectUserName": "jdoe"
+  },
+  {
+    "EventID": "4688",
+    "TimeCreated": "2024-02-05T14:37:55Z",
+    "Computer": "WS-003.corp.local",
+    "ProcessName": "C:\\Windows\\System32\\net.exe",
+    "CommandLine": "net user admin Password123! /add",
+    "SubjectUserName": "system"
+  },
+  {
+    "EventID": "4688",
+    "TimeCreated": "2024-02-05T14:40:33Z",
+    "Computer": "WS-004.corp.local",
+    "ProcessName": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "powershell.exe -EncodedCommand JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAEkATwAuAE0A",
+    "SubjectUserName": "user1"
+  },
+  {
+    "EventID": "4624",
+    "TimeCreated": "2024-02-05T14:45:00Z",
+    "Computer": "WS-001.corp.local",
+    "TargetUserName": "jsmith",
+    "SourceAddress": "192.168.1.100",
+    "LogonType": "2"
+  },
+  {
+    "EventID": "4624",
+    "TimeCreated": "2024-02-05T14:50:15Z",
+    "Computer": "DC-01.corp.local",
+    "TargetUserName": "admin",
+    "SourceAddress": "10.0.0.1",
+    "LogonType": "3"
+  },
+  {
+    "EventID": "4688",
+    "TimeCreated": "2024-02-05T15:00:22Z",
+    "Computer": "WS-005.corp.local",
+    "ProcessName": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe C:\\Users\\user1\\Desktop\\notes.txt",
+    "SubjectUserName": "user1"
+  },
+  {
+    "EventID": "1",
+    "TimeCreated": "2024-02-05T15:05:30Z",
+    "Computer": "WS-002.corp.local",
+    "ProcessName": "C:\\Windows\\System32\\powershell.exe",
+    "CommandLine": "powershell.exe -enc UwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAC0ARgBpAGwAZQBQAGEA",
+    "SubjectUserName": "jdoe"
+  },
+  {
+    "EventID": "4732",
+    "TimeCreated": "2024-02-05T15:10:45Z",
+    "Computer": "DC-01.corp.local",
+    "TargetUserName": "contractor1",
+    "SubjectUserName": "administrator"
+  },
+  {
+    "EventID": "4624",
+    "TimeCreated": "2024-02-05T15:15:00Z",
+    "Computer": "WS-006.corp.local",
+    "TargetUserName": "service_account",
+    "SourceAddress": "192.168.1.200",
+    "LogonType": "5"
+  },
+  {
+    "EventID": "4688",
+    "TimeCreated": "2024-02-05T15:20:33Z",
+    "Computer": "WS-001.corp.local",
+    "ProcessName": "C:\\Windows\\explorer.exe",
+    "CommandLine": "C:\\Windows\\explorer.exe",
+    "SubjectUserName": "jsmith"
+  }
+]

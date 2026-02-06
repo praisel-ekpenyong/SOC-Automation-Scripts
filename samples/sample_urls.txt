@@ -1,0 +1,13 @@
+# Sample URLs for defanging/refanging
+# Mix of malicious and clean URLs for testing
+
+http://malicious-phishing-site.com/login.php
+https://secure-bank-verification.net/verify?id=12345
+http://192.168.1.100/payload.exe
+https://drive.google.com/file/d/ABC123/view
+http://www.google.com
+https://github.com/praisel-ekpenyong/SOC-Automation-Scripts
+http://suspicious-domain.tk/download/malware.zip
+https://company-portal.com/reset-password
+ftp://download.malware-samples.com/trojan.exe
+https://legitimate-website.com/contact
