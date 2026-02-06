@@ -1,0 +1,61 @@
+Return-Path: <noreply@paypa1-secure.com>
+Delivered-To: victim@company.com
+Received: from mail.paypa1-secure.com (unknown [185.220.101.5])
+	by mx.company.com (Postfix) with ESMTP id 1A2B3C0001
+	for <victim@company.com>; Mon, 05 Feb 2024 14:30:00 +0000 (UTC)
+Received: from [192.168.1.100] (helo=attacker-pc)
+	by mail.paypa1-secure.com with esmtpsa (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128)
+	(Exim 4.95)
+	id 1rXXXX-0000Ab-XX
+	for victim@company.com; Mon, 05 Feb 2024 14:29:55 +0000
+From: "PayPal Security Team" <security@paypal.com>
+To: victim@company.com
+Subject: Urgent: Unusual Activity Detected on Your Account
+Date: Mon, 05 Feb 2024 14:29:50 +0000
+Message-ID: <20240205142950.12345@paypa1-secure.com>
+Reply-To: support@paypa1-secure.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Authentication-Results: mx.company.com;
+	spf=fail (sender IP is 185.220.101.5) smtp.mailfrom=paypa1-secure.com;
+	dkim=none (message not signed) header.d=none;
+	dmarc=fail action=none header.from=paypal.com;
+X-Mailer: PhishKit v2.0
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account Security Alert</title>
+</head>
+<body>
+    <h2>Unusual Activity Detected</h2>
+    <p>Dear PayPal Customer,</p>
+    
+    <p>We detected unusual activity on your PayPal account. For your security, we have temporarily limited access to your account.</p>
+    
+    <p><strong>To restore full access, please verify your identity immediately:</strong></p>
+    
+    <p><a href="http://paypa1-secure.com/verify?token=abc123xyz">Click here to verify your account</a></p>
+    
+    <p>Or visit: http://paypa1-secure.com/verify?token=abc123xyz</p>
+    
+    <p>If you don't verify within 24 hours, your account will be permanently suspended.</p>
+    
+    <p><strong>Account Details:</strong></p>
+    <ul>
+        <li>Login attempts from: Russia</li>
+        <li>Suspicious transaction: $499.99</li>
+        <li>Time: 2024-02-05 14:15:00 UTC</li>
+    </ul>
+    
+    <p>Thank you for your immediate attention to this matter.</p>
+    
+    <p>Regards,<br>
+    PayPal Security Team<br>
+    https://www.paypal.com</p>
+    
+    <hr>
+    <small>This is an automated message. Please do not reply to this email.</small>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "alert_name": "Brute Force Attack Detected",
+  "alert_type": "brute_force",
+  "severity": "HIGH",
+  "description": "Multiple failed login attempts detected from single source IP address targeting administrative accounts. Pattern suggests automated password guessing attack.",
+  "timestamp": "2024-02-05T14:35:00Z",
+  "source_ip": "185.220.101.5",
+  "source_host": "unknown-attacker.net",
+  "source_user": "N/A",
+  "destination_ip": "10.0.1.50",
+  "destination_host": "DC-01.corp.local",
+  "target_user": "administrator",
+  "failed_attempts": 47,
+  "time_window": "5 minutes",
+  "protocol": "SMB",
+  "port": 445,
+  "iocs": {
+    "ip_addresses": ["185.220.101.5", "10.0.1.50"],
+    "domains": ["unknown-attacker.net"],
+    "affected_accounts": ["administrator", "admin", "root"]
+  },
+  "additional_context": {
+    "attack_pattern": "Sequential password attempts using common passwords",
+    "geographic_source": "Russia",
+    "known_threat_actor": "Possible APT28 infrastructure",
+    "related_alerts": 3
+  }
+}

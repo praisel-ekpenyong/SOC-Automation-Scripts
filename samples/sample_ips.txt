@@ -1,0 +1,20 @@
+# Sample IP addresses for bulk IP reputation checking
+# Mix of known malicious IPs, Tor nodes, and clean IPs
+
+# Known clean IPs
+8.8.8.8
+1.1.1.1
+208.67.222.222
+
+# Known Tor exit nodes (potentially flagged)
+185.220.101.1
+185.220.102.242
+
+# Sample suspicious IPs (realistic examples)
+45.142.212.61
+194.165.16.10
+103.253.145.28
+
+# Additional sample IPs
+104.21.48.84
+172.67.180.134
